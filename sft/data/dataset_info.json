@@ -1,0 +1,10 @@
+{
+  "example": {
+    "file_name": "../../datasets/sft_dataset/example.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}

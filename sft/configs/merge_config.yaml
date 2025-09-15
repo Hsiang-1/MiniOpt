@@ -1,0 +1,16 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: ../models/Qwen2.5-1.5B-Instruct
+
+### adapter
+adapter_name_or_path: ./lora_output
+template: qwen
+trust_remote_code: true
+
+### export
+export_dir: ../models/MiniOpt-Warmup
+
+export_size: 5
+export_device: auto  # choices: [cpu, auto]
+export_legacy_format: false

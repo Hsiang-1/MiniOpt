@@ -4,6 +4,7 @@ MiniOpt is an end-to-end optimization solving paradigm based on reinforcement le
 
 ## 📊 Performance
 
+MiniOpt achieves remarkable performance across 9 optimization benchmarks published by [LLMOPT](https://github.com/antgroup/LLMOPT).
 
 <table border="0" style="border-collapse: collapse; text-align: center;">
   <thead>

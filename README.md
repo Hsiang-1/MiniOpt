@@ -2,19 +2,119 @@
 
 MiniOpt is an end-to-end optimization solving paradigm based on reinforcement learning with verifiable reward (RLVR). It enables small language models (1.5B-14B parameters) to achieve state-of-the-art performance in solving optimization problems from natural language descriptions, significantly reducing computational costs while maintaining competitive accuracy.
 
-## 📊 Performance Highlights
-
-MiniOpt achieves remarkable performance across 9 optimization benchmarks:
-
-| Model       | Average SA | Average ER | Parameters |
-| ----------- | ---------- | ---------- | ---------- |
-| MiniOpt-14B | **66.24%** | **92.04%** | 14B        |
-| MiniOpt-7B  | 62.90%     | 90.64%     | 7B         |
-| MiniOpt-3B  | 56.94%     | 88.78%     | 3B         |
-| LLMOPT-14B  | 54.81%     | 90.03%     | 14B        |
-| GPT-5       | 56.57%     | 83.26%     | ~1.8T      |
+## 📊 Performance
 
 
+<table border="0" style="border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr>
+      <th rowspan="2">Category</th>
+      <th rowspan="2">Model / Method</th>
+      <th colspan="2">Performance</th>
+    </tr>
+    <tr>
+      <th>SA Avg.</th>
+      <th>ER Avg.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="4" style="vertical-align: middle;"><strong>General Models</strong></td>
+      <td>Qwen2.5-3B-Instruct</td>
+      <td>9.98</td>
+      <td>17.11</td>
+    </tr>
+    <tr>
+      <td>Qwen2.5-7B-Instruct</td>
+      <td>30.05</td>
+      <td>41.69</td>
+    </tr>
+    <tr>
+      <td>Qwen2.5-14B-Instruct</td>
+      <td>43.59</td>
+      <td>63.53</td>
+    </tr>
+    <tr>
+      <td>DeepSeek V3</td>
+      <td>57.81</td>
+      <td>83.50</td>
+    </tr>
+    <tr>
+      <td rowspan="6" style="vertical-align: middle;"><strong>General Models (Thinking)</strong></td>
+      <td>Qwen3-4B</td>
+      <td>10.25</td>
+      <td>14.15</td>
+    </tr>
+    <tr>
+      <td>Qwen3-8B</td>
+      <td>19.77</td>
+      <td>25.55</td>
+    </tr>
+    <tr>
+      <td>Qwen3-14B</td>
+      <td>22.54</td>
+      <td>31.17</td>
+    </tr>
+    <tr>
+      <td>DeepSeek R1</td>
+      <td>58.51</td>
+      <td>83.07</td>
+    </tr>
+    <tr>
+      <td>Gemini 2.5 Pro</td>
+      <td>57.04</td>
+      <td>89.65</td>
+    </tr>
+    <tr>
+      <td>GPT-5</td>
+      <td>56.57</td>
+      <td>83.26</td>
+    </tr>
+    <tr>
+      <td rowspan="3" style="vertical-align: middle;"><strong>Prompt-based Methods</strong></td>
+      <td>Chain-of-Experts</td>
+      <td>41.03</td>
+      <td>61.72</td>
+    </tr>
+    <tr>
+      <td>OptiMUS</td>
+      <td>18.76</td>
+      <td>52.13</td>
+    </tr>
+    <tr>
+      <td>Reflexion</td>
+      <td>41.28</td>
+      <td>80.42</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="vertical-align: middle;"><strong>Learning-based Models</strong></td>
+      <td>OptMATH-7B</td>
+      <td>52.37</td>
+      <td>85.07</td>
+    </tr>
+    <tr>
+      <td>LLMOPT-14B</td>
+      <td>54.81</td>
+      <td>90.03</td>
+    </tr>
+    <tr>
+      <td rowspan="3" style="vertical-align: middle;"><strong>Ours</strong></td>
+      <td>MiniOpt-3B</td>
+      <td>56.94</td>
+      <td>88.04</td>
+    </tr>
+    <tr>
+      <td>MiniOpt-7B</td>
+      <td>62.76</td>
+      <td>90.61</td>
+    </tr>
+    <tr>
+      <td>MiniOpt-14B</td>
+      <td><strong>66.10</strong></td>
+      <td><strong>92.35</strong></td>
+    </tr>
+  </tbody>
+</table>
 
 ## 🛠️ Installation
 

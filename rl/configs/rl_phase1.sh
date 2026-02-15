@@ -64,7 +64,7 @@ python -m verl.trainer.main_ppo \
     trainer.save_freq=15 \
     trainer.test_freq=15 \
     trainer.default_local_dir=$OUTPUT_PATH \
-    trainer.total_epochs=5  $@ > ./log/training_phase1.log 2> ./log/training_phase1.error.log;  
+    trainer.total_epochs=15  $@ > ./log/training_phase1.log 2> ./log/training_phase1.error.log;  
 
 
 latest_step=$(cat $OUTPUT_PATH/latest_checkpointed_iteration.txt)

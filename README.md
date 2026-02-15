@@ -4,7 +4,7 @@ MiniOpt is an end-to-end optimization solving paradigm based on reinforcement le
 
 ## 📊 Performance
 
-MiniOpt achieves remarkable performance across 9 optimization benchmarks.
+MiniOpt achieves remarkable performance across 8 optimization benchmarks.
 
 <table border="0" style="border-collapse: collapse; text-align: center;">
   <thead>
@@ -14,108 +14,121 @@ MiniOpt achieves remarkable performance across 9 optimization benchmarks.
       <th colspan="2">Performance</th>
     </tr>
     <tr>
-      <th>SA Avg.</th>
-      <th>ER Avg.</th>
+      <th>SA Avg. (%)</th>
+      <th>ER Avg. (%)</th>
     </tr>
   </thead>
   <tbody>
+    <!-- General Models -->
     <tr>
       <td rowspan="4" style="vertical-align: middle;"><strong>General Models</strong></td>
       <td>Qwen2.5-3B-Instruct</td>
-      <td>9.98</td>
-      <td>17.11</td>
+      <td>11.23</td>
+      <td>16.57</td>
     </tr>
     <tr>
       <td>Qwen2.5-7B-Instruct</td>
-      <td>30.05</td>
-      <td>41.69</td>
+      <td>33.20</td>
+      <td>41.86</td>
     </tr>
     <tr>
       <td>Qwen2.5-14B-Instruct</td>
-      <td>43.59</td>
-      <td>63.53</td>
+      <td>47.46</td>
+      <td>60.64</td>
     </tr>
     <tr>
-      <td>DeepSeek V3</td>
-      <td>57.81</td>
-      <td>83.50</td>
+      <td>DeepSeek-V3</td>
+      <td>60.14</td>
+      <td>81.86</td>
     </tr>
+    <!-- General Models (Thinking) -->
     <tr>
       <td rowspan="6" style="vertical-align: middle;"><strong>General Models (Thinking)</strong></td>
       <td>Qwen3-4B</td>
-      <td>10.25</td>
-      <td>14.15</td>
+      <td>11.16</td>
+      <td>14.02</td>
     </tr>
     <tr>
       <td>Qwen3-8B</td>
-      <td>19.77</td>
-      <td>25.55</td>
+      <td>21.79</td>
+      <td>25.43</td>
     </tr>
     <tr>
       <td>Qwen3-14B</td>
-      <td>22.54</td>
-      <td>31.17</td>
+      <td>23.78</td>
+      <td>30.04</td>
     </tr>
     <tr>
-      <td>DeepSeek R1</td>
-      <td>58.51</td>
-      <td>83.07</td>
+      <td>DeepSeek-R1</td>
+      <td>60.85</td>
+      <td>82.24</td>
     </tr>
     <tr>
-      <td>Gemini 2.5 Pro</td>
-      <td>57.04</td>
-      <td>89.65</td>
+      <td>Gemini-2.5-Pro</td>
+      <td>57.39</td>
+      <td>88.87</td>
     </tr>
     <tr>
       <td>GPT-5</td>
-      <td>56.57</td>
-      <td>83.26</td>
+      <td>57.54</td>
+      <td>84.73</td>
     </tr>
+    <!-- Prompt-based Methods -->
     <tr>
       <td rowspan="3" style="vertical-align: middle;"><strong>Prompt-based Methods</strong></td>
       <td>Chain-of-Experts</td>
-      <td>41.03</td>
-      <td>61.72</td>
+      <td>45.78</td>
+      <td>60.33</td>
     </tr>
     <tr>
       <td>OptiMUS</td>
-      <td>18.76</td>
-      <td>52.13</td>
+      <td>20.65</td>
+      <td>49.43</td>
     </tr>
     <tr>
       <td>Reflexion</td>
-      <td>41.28</td>
-      <td>80.42</td>
+      <td>45.54</td>
+      <td>78.28</td>
+    </tr>
+    <!-- Learning-based Models -->
+    <tr>
+      <td rowspan="4" style="vertical-align: middle;"><strong>Learning-based Models</strong></td>
+      <td>Step-OPT-Qwen2.5-3B</td>
+      <td>39.76</td>
+      <td>54.65</td>
     </tr>
     <tr>
-      <td rowspan="2" style="vertical-align: middle;"><strong>Learning-based Models</strong></td>
+      <td>Step-OPT-Qwen2.5-7B</td>
+      <td>52.22</td>
+      <td>69.76</td>
+    </tr>
+    <tr>
       <td>OptMATH-7B</td>
-      <td>52.37</td>
-      <td>85.07</td>
+      <td>54.62</td>
+      <td>83.39</td>
     </tr>
     <tr>
       <td>LLMOPT-14B</td>
-      <td>54.81</td>
-      <td>90.03</td>
+      <td>60.10</td>
+      <td>89.75</td>
     </tr>
+    <!-- Ours -->
     <tr>
       <td rowspan="3" style="vertical-align: middle;"><strong>Ours</strong></td>
       <td>MiniOpt-3B</td>
-      <td>56.94</td>
-      <td>88.04</td>
+        <td><underline>59.65</underline></td>
+      <td>87.92</td>
     </tr>
     <tr>
       <td>MiniOpt-7B</td>
-      <td>62.76</td>
-      <td>90.61</td>
-    </tr>
-    <tr>
-      <td>MiniOpt-14B</td>
-      <td><strong>66.10</strong></td>
-      <td><strong>92.35</strong></td>
+      <td>64.76</td>
+      <td>91.17</td>
     </tr>
   </tbody>
 </table>
+
+
+
 
 ## 🛠️ Installation
 

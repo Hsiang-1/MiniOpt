@@ -7,17 +7,23 @@
     <a href="https://github.com/HQian-AI"><strong>Hong Qian</strong></a><sup>1,†</sup>
     ·
     <a href="https://github.com/Hsiang-1"><strong>Xiang Shu</strong></a><sup>2</sup>
+    ·
     <a href="https://github.com/YaolinWen"><strong>Yaolin Wen</strong></a><sup>1</sup>
+    ·
     <a href="#"><strong>Qitao Shi</strong></a><sup>2</sup>
+    ·
     <a href="#"><strong>Bingdong Li</strong></strong></a><sup>1</sup>
     <br>
     <a href="#"><strong>Xingyu Lu</strong></a><sup>2</sup>
-    <a href="#"><strong>Xiangfeng Wang</strong></a><sup>1</sup>
-    <a href="#"><strong>Jun Zhou</strong></a><sup>2</sup>
-    <a href="#"><strong>Ke Tang</strong></a><sup>3</sup>
-    <a href="#"><strong>Yang Yu</strong></a><sup>4</sup>
     ·
-    <a href="https://github.com/HQian-AI"><strong>Hong Qian</strong></a><sup>1,2,†</sup>
+    <a href="#"><strong>Xiangfeng Wang</strong></a><sup>1</sup>
+    ·
+    <a href="#"><strong>Jun Zhou</strong></a><sup>2</sup>
+    ·
+    <a href="#"><strong>Ke Tang</strong></a><sup>3</sup>
+    ·
+    <a href="#"><strong>Yang Yu</strong></a><sup>4</sup>
+    <br>
     <div align='center'>
         <sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Authors.
     </div>

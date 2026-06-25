@@ -1,4 +1,39 @@
-# MiniOpt: Reasoning to Model and Solve General Optimization Problems with Limited Resources
+<h2 align="center">MiniOpt: Reasoning to Model and Solve General Optimization Problems with Limited Resources </h2>
+<p align="center">
+    <a href="https://github.com/ZhaoKe1024"><strong>Ke Zhao</strong></a><sup>1,*</sup>
+    ·
+    <a href="#"><strong>Zixiang Di</strong></a><sup>1,*</sup>
+    ·
+    <a href="https://github.com/HQian-AI"><strong>Hong Qian</strong></a><sup>1,†</sup>
+    ·
+    <a href="https://github.com/Hsiang-1"><strong>Xiang Shu</strong></a><sup>2</sup>
+    <a href="https://github.com/YaolinWen"><strong>Yaolin Wen</strong></a><sup>1</sup>
+    <a href="#"><strong>Qitao Shi</strong></a><sup>2</sup>
+    <a href="#"><strong>Bingdong Li</strong></strong></a><sup>1</sup>
+    <br>
+    <a href="#"><strong>Xingyu Lu</strong></a><sup>2</sup>
+    <a href="#"><strong>Xiangfeng Wang</strong></a><sup>1</sup>
+    <a href="#"><strong>Jun Zhou</strong></a><sup>2</sup>
+    <a href="#"><strong>Ke Tang</strong></a><sup>3</sup>
+    <a href="#"><strong>Yang Yu</strong></a><sup>4</sup>
+    ·
+    <a href="https://github.com/HQian-AI"><strong>Hong Qian</strong></a><sup>1,2,†</sup>
+    <div align='center'>
+        <sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Authors.
+    </div>
+    <p align="center">
+        <b><sup>1</sup>East China Normal University    |    <sup>2</sup>AntGroup   |   <sup>3</sup>Southern University of Science and Technology   |   <sup>4</sup>Nanjing University  </b></p> 
+    <p align="center">
+        <a href="https://arxiv.org/abs/2606.25832"><img src='https://img.shields.io/badge/Paper-MiniOpt-red'></a>
+        <!-- <a href='https://huggingface.co/ant-opt/LLMOPT-Qwen2.5-14B'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Model-yellow'></a>
+        <!-- <a href=''><img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow'></a> -->
+        <!-- <a href='https://github.com/antgroup/LLMOPT/tree/main/data/testset'><img src='https://img.shields.io/badge/Dataset-Testset-blue'></a> -->
+        <a href='https://github.com/Hsiang-1/MiniOpt'><img src='https://img.shields.io/badge/GitHub-Repo-blue'></a>
+  </p>  
+</p>
+<p align="center">
+  <img src="./assets/framework.png" alt="Framework" width="1000">
+</p>
 
 MiniOpt is an end-to-end optimization solving paradigm based on reinforcement learning with verifiable reward (RLVR). It enables small language models (1.5B-14B parameters) to achieve state-of-the-art performance in solving optimization problems from natural language descriptions, significantly reducing computational costs while maintaining competitive accuracy.
 
@@ -222,3 +257,20 @@ bash rl.sh
 
 Run `python ./inference/inference.py` to perform inference. This script shows the system prompt used for inference and tests the first case of `nl4opt_test` benchmark.
 
+
+=======
+## 💭 Citation
+
+If you find this repository useful in your research, please cite:
+
+```bibtex
+@misc{zhao2026minioptreasoningmodelsolve,
+      title={MiniOpt: Reasoning to Model and Solve General Optimization Problems with Limited Resources}, 
+      author={Ke Zhao and Zixiang Di and Hong Qian and Xiang Shu and Yaolin Wen and Qitao Shi and Bingdong Li and Xingyu Lu and Xiangfeng Wang and Jun Zhou and Ke Tang and Yang Yu},
+      year={2026},
+      eprint={2606.25832},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2606.25832}, 
+}
+```
